@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Created by PhpStorm.
+ * User: masterx2
+ * Date: 06.12.15
+ * Time: 22:52
+ */
+
+define('DOC_ROOT', __DIR__."/..");
+require DOC_ROOT."/vendor/autoload.php";
+
+$bot = new Bot\Groovy();
+$bot->start();
